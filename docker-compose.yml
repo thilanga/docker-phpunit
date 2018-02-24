@@ -6,4 +6,4 @@ services:
     working_dir: /project
     command: bash -c "composer install && phpunit -vvv"
     volumes:
-      - ../api:/project
+      - ./:/project
